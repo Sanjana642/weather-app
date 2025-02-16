@@ -66,19 +66,21 @@ function updateBackground(weather) {
     let bgImage;
     switch (weather.toLowerCase()) {
         case "clear":
-            bgImage = "url('https://source.unsplash.com/1600x900/?sunny')";
+            bgImage = "url('https://wallpapercave.com/wp/wp6680336.jpg')";
             break;
-        case "clouds":
-            bgImage = "url('https://source.unsplash.com/1600x900/?cloudy')";
+        case "smoky/clouds":
+            bgImage = "url('https://img.freepik.com/premium-photo/beautiful-sunset-cloudy-sky_181624-61471.jpg')";
             break;
         case "rain":
-            bgImage = "url('https://source.unsplash.com/1600x900/?rain')";
+            bgImage = "url('https://wallpapercave.com/wp/wp3238708.jpg')";
             break;
         case "snow":
-            bgImage = "url('https://source.unsplash.com/1600x900/?snow')";
+            bgImage = "url('https://wallpapercave.com/wp/EKmC6Pk.jpg')";
             break;
+        case "mist":
+            bgImage = "url('https://img.freepik.com/premium-photo/mountain-tropical-forest_9563-4201.jpg')"
         default:
-            bgImage = "url('https://source.unsplash.com/1600x900/?weather')";
+            bgImage = "url('https://wallpapercave.com/wp/wp6680336.jpg')";
     }
     document.body.style.backgroundImage = bgImage;
 }
