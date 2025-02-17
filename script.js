@@ -80,7 +80,7 @@ function updateBackground(weather) {
         case "mist":
             bgImage = "url('https://img.freepik.com/premium-photo/mountain-tropical-forest_9563-4201.jpg')"
         default:
-            bgImage = "url('https://wallpapercave.com/wp/wp6680336.jpg')";
+            bgImage = "url('https://img.freepik.com/premium-photo/beautiful-sunset-cloudy-sky_181624-61471.jpg')";
     }
     document.body.style.backgroundImage = bgImage;
 }
